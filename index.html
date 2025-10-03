@@ -1,15 +1,108 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
-    <title>Document</title>
+    <title>Equipo 3 - UAB</title>
+    <script src="https://cdn.tailwindcss.com"></script>
 </head>
-<body>
-     <h1 class="text-3xl font-bold underline">
-      Hello world!
-    </h1>
-    <h2>Para bailar la bamba</h2>
+<body class="bg-neutral-50">
+    <!-- Header -->
+    <header class="fixed top-0 w-full bg-white/80 backdrop-blur-md border-b border-neutral-200 z-50">
+        <div class="max-w-7xl mx-auto px-6 py-4 flex justify-between items-center">
+            <div class="text-2xl font-bold">UAB</div>
+            <div class="text-sm font-medium text-neutral-600">Equipo 3</div>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <main class="pt-32 pb-20">
+        <div class="max-w-7xl mx-auto px-6">
+            <div class="text-center mb-20">
+                <h1 class="text-7xl md:text-8xl lg:text-9xl font-bold text-neutral-900 mb-6 leading-none">
+                    EQUIPO 3
+                </h1>
+                <p class="text-xl md:text-2xl text-neutral-600 font-light">
+                    Universidad Adventista Boliviana
+                </p>
+            </div>
+
+            <!-- Team Grid -->
+            <div class="grid grid-cols-2 md:grid-cols-3 gap-6 md:gap-8 max-w-5xl mx-auto">
+                <!-- Member 1 -->
+                <div class="group">
+                    <div class="bg-gradient-to-br from-blue-500 to-blue-600 rounded-2xl p-8 md:p-12 aspect-square flex items-center justify-center transition-transform duration-300 group-hover:scale-105">
+                        <div class="text-center">
+                            <div class="text-5xl md:text-6xl font-bold text-white mb-3">LM</div>
+                            <div class="text-white/90 text-sm font-medium">Miembro 1</div>
+                        </div>
+                    </div>
+                    <h3 class="text-xl md:text-2xl font-bold text-neutral-900 mt-4 text-center">Limberg Montes</h3>
+                </div>
+
+                <!-- Member 2 -->
+                <div class="group">
+                    <div class="bg-gradient-to-br from-purple-500 to-purple-600 rounded-2xl p-8 md:p-12 aspect-square flex items-center justify-center transition-transform duration-300 group-hover:scale-105">
+                        <div class="text-center">
+                            <div class="text-5xl md:text-6xl font-bold text-white mb-3">LG</div>
+                            <div class="text-white/90 text-sm font-medium">Miembro 2</div>
+                        </div>
+                    </div>
+                    <h3 class="text-xl md:text-2xl font-bold text-neutral-900 mt-4 text-center">Luis Guarachi</h3>
+                </div>
+
+                <!-- Member 3 -->
+                <div class="group">
+                    <div class="bg-gradient-to-br from-pink-500 to-pink-600 rounded-2xl p-8 md:p-12 aspect-square flex items-center justify-center transition-transform duration-300 group-hover:scale-105">
+                        <div class="text-center">
+                            <div class="text-5xl md:text-6xl font-bold text-white mb-3">LR</div>
+                            <div class="text-white/90 text-sm font-medium">Miembro 3</div>
+                        </div>
+                    </div>
+                    <h3 class="text-xl md:text-2xl font-bold text-neutral-900 mt-4 text-center">M3</h3>
+                </div>
+
+                <!-- Member 4 -->
+                <div class="group">
+                    <div class="bg-gradient-to-br from-orange-500 to-orange-600 rounded-2xl p-8 md:p-12 aspect-square flex items-center justify-center transition-transform duration-300 group-hover:scale-105">
+                        <div class="text-center">
+                            <div class="text-5xl md:text-6xl font-bold text-white mb-3">M4</div>
+                            <div class="text-white/90 text-sm font-medium">Miembro 4</div>
+                        </div>
+                    </div>
+                    <h3 class="text-xl md:text-2xl font-bold text-neutral-900 mt-4 text-center">M4</h3>
+                </div>
+
+                <!-- Member 5 -->
+                <div class="group">
+                    <div class="bg-gradient-to-br from-teal-500 to-teal-600 rounded-2xl p-8 md:p-12 aspect-square flex items-center justify-center transition-transform duration-300 group-hover:scale-105">
+                        <div class="text-center">
+                            <div class="text-5xl md:text-6xl font-bold text-white mb-3">M5</div>
+                            <div class="text-white/90 text-sm font-medium">Miembro 5</div>
+                        </div>
+                    </div>
+                    <h3 class="text-xl md:text-2xl font-bold text-neutral-900 mt-4 text-center">Miembro 5</h3>
+                </div>
+
+                <!-- Member 6 -->
+                <div class="group">
+                    <div class="bg-gradient-to-br from-indigo-500 to-indigo-600 rounded-2xl p-8 md:p-12 aspect-square flex items-center justify-center transition-transform duration-300 group-hover:scale-105">
+                        <div class="text-center">
+                            <div class="text-5xl md:text-6xl font-bold text-white mb-3">M6</div>
+                            <div class="text-white/90 text-sm font-medium">Miembro 6</div>
+                        </div>
+                    </div>
+                    <h3 class="text-xl md:text-2xl font-bold text-neutral-900 mt-4 text-center">Miembro 6</h3>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer class="bg-neutral-900 text-white py-12">
+        <div class="max-w-7xl mx-auto px-6 text-center">
+            <p class="text-neutral-400">© 2025 Equipo 3 - Universidad Adventista de Bolivia</p>
+        </div>
+    </footer>
 </body>
 </html>
