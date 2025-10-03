@@ -2,3 +2,4 @@
 
 - Limberg Edgar Montes Tancara
 - Luis Fernando Guarachi Apaza
+- Marian Celeste Gironda Chura
